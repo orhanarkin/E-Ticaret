@@ -1,0 +1,9 @@
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.deps.json
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.dll
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\bin\Debug\netcoreapp3.1\ETicaret.Entities.pdb
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csprojAssemblyReference.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfoInputs.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.AssemblyInfo.cs
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.dll
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.Entities\obj\Debug\netcoreapp3.1\ETicaret.Entities.pdb

@@ -1,0 +1,57 @@
+﻿@model CategoryListModel
+@{
+    ViewData["Title"] = "CategoryList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header"><i class="fa fa-file-text-o"></i>Kategori Yönetimi</h3>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-home"></i><a asp-controller="Admin" asp-action="Index">Anasayfa</a></li>
+                <li><i class="icon_document_alt"></i>Kategori Yönetimi</li>
+                <li><i class="fa fa-file-text-o"></i><a asp-controller="Admin" asp-action="CategoryList">Kategoriler</a></li>
+            </ol>
+        </div>
+    </div>
+
+    <p>
+        @Html.ActionLink("Yeni Kategori Ekle", "CreateCategory")
+    </p>
+
+@if (Model.Categories.Count() > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td style="width:30px;">Id</td>
+                <td>Kategori Adı</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Categories)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.KategoriAdi</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm mr-2" href="/Admin/EditCategory/@item.Id">Güncelle</a>
+                        <form action="/Admin/DeleteCategory" method="post" style="display:inline">
+                            <input type="hidden" name="categoryId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>
+            Kategori Bulunamadı
+        </h4>
+    </div>
+}

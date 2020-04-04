@@ -1,0 +1,15 @@
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.Entities.dll
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.deps.json
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.dll
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.pdb
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.Entities.pdb
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.csproj.CopyComplete
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.dll
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.pdb
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.runtimeconfig.json
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\bin\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.runtimeconfig.dev.json
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Orhan\source\repos\ETicaret\ETicaret.DataAccessLayer\obj\Debug\netcoreapp3.1\ETicaret.DataAccessLayer.csproj.CoreCompileInputs.cache

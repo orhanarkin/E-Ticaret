@@ -1,0 +1,62 @@
+﻿@model ProductListModel
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="row">
+        <div class="col-lg-12">
+            <h3 class="page-header"><i class="fa fa-file-text-o"></i>Ürün Yönetimi</h3>
+            <ol class="breadcrumb">
+                <li><i class="fa fa-home"></i><a asp-controller="Admin" asp-action="Index">Anasayfa</a></li>
+                <li><i class="icon_document_alt"></i>Ürün Yönetimi</li>
+                <li><i class="fa fa-file-text-o"></i><a asp-controller="Admin" asp-action="ProductList">Ürünler</a></li>
+            </ol>
+        </div>
+    </div>
+
+
+<p>
+    @Html.ActionLink("Yeni Ürün Ekle", "CreateProduct")
+</p>
+
+@if (Model.Products.Count() > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <td style="width:30px;">Id</td>
+                <td>Resim</td>
+                <td>Ürün Adı</td>
+                <td>Fiyat</td>
+                <td></td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Products)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td><img src="~/img/@item.Resim1" width="80" /></td>
+                    <td>@item.UrunAdi</td>
+                    <td>@item.Fiyat</td>
+                    <td>
+                        <a class="btn btn-primary btn-sm mr-2" href="/Admin/EditProduct/@item.Id">Güncelle</a>
+                        <form action="/Admin/DeleteProduct" method="post" style="display:inline">
+                            <input type="hidden" name="productId" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-warning">
+        <h4>
+            Ürün Bulunamadı
+        </h4>
+    </div>
+}
